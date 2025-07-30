@@ -1,17 +1,115 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Google</title>
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="icon" type="image/png" href="assets/favicon (3)/favicon-96x96.png" sizes="96x96" />
-<link rel="icon" type="image/svg+xml" href="assets/favicon (3)/favicon.svg" />
-<link rel="shortcut icon" href="assets/favicon (3)/favicon.ico" />
-<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon (3)/apple-touch-icon.png" />
-<link rel="manifest" href="assets/favicon (3)/site.webmanifest" />
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="assets/favicon (3)/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="assets/favicon (3)/favicon.svg"
+    />
+    <link rel="shortcut icon" href="assets/favicon (3)/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon (3)/apple-touch-icon.png"
+    />
+    <link rel="manifest" href="assets/favicon (3)/site.webmanifest" />
+    <!-- 아이콘 -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- 전체영역 -->
+    <div class="wrap">
+      <!-- 헤더 -->
+      <div class="header header">
+        <!-- 텍스트링크 -->
+        <div class="txt-link">
+          <a href="#">Gmail</a>
+          <a href="#">이미지</a>
+        </div>
+        <!-- 아이콘링크 -->
+        <div class="icon-link">
+          <a href="#" class="icon" aria-label="Search Labs"
+            ><img src="images/아이콘1.png" alt="아이콘1" width="25px"
+          /></a>
+          <a href="#" class="icon" aria-label="Google 앱"
+            ><img src="images/아이콘2.png" alt="아이콘2" width="25px"
+          /></a>
+        </div>
+        <!-- 로그인버튼 -->
+        <a href="#"><button>Log-in</button></a>
+      </div>
+      <!-- 컨텐츠영역 -->
+      <div class="content">
+        <!-- 구글로고 -->
+        <div class="logo">
+          <a href="#"><img src="images/googlelogo_color_272x92dp.png" alt="구글로고" /></a>
+        </div>
+        <!-- 검색창 -->
+        <div class="search-box">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" placeholder=" Google 검색 또는 URL 입력" />
+          <div class="search-box-img">
+            <button>
+              <img src="images/googlemic_color_24dp.png" alt="마이크" />
+            </button>
+            <button><img src="images/Frame.png" alt="렌즈" /></button>
+          </div>
+        </div>
+        <!-- 바로가기 -->
+         <div class="other-site">
+            <ul>
+                <li><a href="#">
+                    <div class="roundBox"><img src="" alt=""></div>
+                    <p>NAVER</p>
+                </a></li>
+                <li><a href="#">
+                    <div class="roundBox"><img src="" alt=""></div>
+                    <p>Instagram</p>
+                </a></li>
+                <li><a href="#">
+                    <div class="roundBox"><img src="" alt=""></div>
+                    <p>Notion</p>
+                </a></li>
+                <li><a href="#">
+                    <div class="roundBox"><img src="" alt=""></div>
+                    <p>Pinterest</p>
+                </a></li>
+                <li><a href="#">
+                    <div class="roundBox"><img src="" alt=""></div>
+                    <p>ChatGPT</p>
+                </a></li>
+                <li><a href="#">
+                    <div class="roundBox"><img src="" alt=""></div>
+                    <p>Pigma</p>
+                </a></li>
+                <li><a href="#">
+                    <div class="roundBox"><img src="" alt=""></div>
+                    <p>Github</p>
+                </a></li>
+                <li><a href="#">
+                    <div class="roundBox"><img src="" alt=""></div>
+                    <p>바로가기 추가</p>
+                </a></li>
+            </ul>
+         </div>
+      </div>
+    </div>
+  </body>
 </html>
