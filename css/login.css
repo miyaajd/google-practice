@@ -1,0 +1,97 @@
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+i {
+  color: #777;
+  display: block;
+}
+/* 전체 감싸는 영역 */
+
+.container {
+  width: 50%;
+  max-width: 400px;
+  min-width: 300px;
+  margin: 150px auto;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  box-shadow: 0px 2px 5px #999;
+  border-radius: 10px;
+  font-family: "arial";
+}
+.container > h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+button {
+  width: 100%;
+  padding: 8px;
+  border: 0;
+  border-radius: 3px;
+}
+button:hover {
+  cursor: pointer;
+  filter: brightness(90%);
+}
+button img {
+  width: 25px;
+}
+
+/* 폼 */
+
+form {
+  width: 100%;
+}
+.input-gr {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+.input-gr input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #777;
+  border-radius: 3px;
+  outline: none;
+}
+.input-gr label {
+  font-size: 20px;
+}
+button[type="submit"] {
+  font-size: 18px;
+  color: #fff;
+  background-color: #6294ff;
+}
+.input-gr input:focus::placeholder {
+  color: transparent;
+}
+
+/* other 로그인 */
+
+#otherLogin {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+  background-color: #ededed;
+  color: #333;
+}
+#notice {
+  background-color: #ededed;
+  color: #333;
+  font-weight: 500;
+}
