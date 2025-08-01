@@ -1,0 +1,22 @@
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  position: relative;
+  margin: 150px auto;
+  width: 300px; 
+  height: 400px;
+  padding: 100px;
+  background: url("../images/notice.jpg") no-repeat center;
+}
+.close{
+  position: absolute;
+  font-weight: 500;
+  right: 10px;
+  top: -8px;
+  cursor: pointer;
+}

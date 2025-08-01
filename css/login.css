@@ -80,6 +80,13 @@ button[type="submit"] {
   color: transparent;
 }
 
+/* 구분 */
+.or {
+  font-size: 2px;
+  color: #777;
+  font-weight: 500;
+}
+
 /* other 로그인 */
 
 #otherLogin {
@@ -94,4 +101,7 @@ button[type="submit"] {
   background-color: #ededed;
   color: #333;
   font-weight: 500;
+}
+#notice-a{
+  width: 100%;
 }
